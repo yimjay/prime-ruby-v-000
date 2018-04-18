@@ -5,6 +5,6 @@ def prime?(number)
   elsif number <= 3 
     true
   else 
-    test_array.any? { |n| number % n == 0 } ? 
+    test_array.any? { |n| number % n == 0 } ? false : true
   end
 end
